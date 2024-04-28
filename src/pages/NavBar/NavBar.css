@@ -22,9 +22,14 @@
     text-align: center;
     align-items: center;
 }
-.resumeBtn{
-    color: #5600ff99;
+.navPagesSide > div > a {
+    font-weight: 400;
+    color: #010017;
+    text-decoration: inherit;
+}
+.resumeBtn > a {
+    color: #5600ff99 !important;
     border: 1px solid #5600ff99;
-    padding: 6px;
+    padding: 7px;
     border-radius: 50px;
 }

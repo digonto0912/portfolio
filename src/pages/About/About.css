@@ -1,0 +1,22 @@
+.About{
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    gap: 200px;
+    min-height: 100vh;
+}
+.AboutImgDiv{
+    overflow: hidden;
+    justify-content: center;
+    display: grid;
+    width: 1800px;
+}
+.aboutTxt{
+    align-self: center;
+}
+.aboutTxt > h1{
+    margin-bottom: 20px;
+}
+.aboutTxt > div > h2{
+    font-weight: normal;
+}

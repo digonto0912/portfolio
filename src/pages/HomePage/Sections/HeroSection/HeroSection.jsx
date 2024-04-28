@@ -1,5 +1,4 @@
 import "./HeroSection.css";
-import myImage from "../../../../../public/images/myImage.jpg";
 import abc from "../../../../../public/images/med (2).png";
 
 const HeroSection = () => {
