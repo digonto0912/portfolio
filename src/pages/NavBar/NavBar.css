@@ -1,0 +1,30 @@
+.NavBar{
+    background: #fff;
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    color: #010017;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.navNameSide{
+    font-size: 30px;
+}
+.navPagesSide{
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+.resumeBtn{
+    color: #5600ff99;
+    border: 1px solid #5600ff99;
+    padding: 6px;
+    border-radius: 50px;
+}

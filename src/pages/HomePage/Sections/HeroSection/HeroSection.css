@@ -1,0 +1,49 @@
+.HeroSection{
+    height: 1000px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background: #bccafe12;
+}
+.HeroSection > div{
+    padding-top: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 43px;
+    padding-right: 43px;
+}
+.HeroSection > div > .leftDivOfTxt{
+    width: 45%;
+    position: relative;
+    top: -40px;
+}
+.HeroSection > div > div > div{
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.HeroSection > div > div > div > span{
+    font-size: 25px;
+}
+.HeroSection > div > div > h4{
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.HeroSection > div > div > button{
+    background: linear-gradient(to right, #2a03ff91, #00b1ff8c);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 13px;
+    border-radius: 0;
+    width: 180px;
+    height: 50px;
+    align-items: center;
+    display: grid;
+}
+.HeroSection > div > div > img{
+    height: 690px;
+    width: 600px;
+}

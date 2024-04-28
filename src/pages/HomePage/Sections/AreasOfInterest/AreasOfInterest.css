@@ -1,0 +1,30 @@
+.AreasOfInterest{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 1000px;
+    align-content: center;
+}
+.AreasOfInterest > div{
+    display: grid;
+    justify-content: center;
+}
+.AOIHeadLine{
+    gap: 15px;
+    display: grid;
+    margin-bottom: 100px;
+}
+.AOIHeadLine > h5{
+    font-weight: normal;
+}
+.AOICarts{
+    grid-template-columns: repeat(3, 2fr);
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}
+.AOICarts > div{
+    padding: 20px;
+    margin-bottom: 41px;
+}
+

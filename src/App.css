@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.completePage{
+  max-width: 2150px;
+}
+.h60{
+  height: 60px;
+}
