@@ -44,6 +44,40 @@
     display: grid;
 }
 .HeroSection > div > div > img{
-    height: 690px;
-    width: 600px;
+    height: 36.5vw;
+    width: 31.5vw;
+    max-height: 690px;
+    max-width: 600px;
+}
+
+
+
+
+
+/* responsive */
+
+@media screen and (min-width: 1730px) {
+    .aboutTxt {
+        font-size:16px;
+    }
+}
+@media screen and (max-width: 1734px) {
+    .HeroSection{
+        height: 105vh;
+    }
+    .HeroSection > div{
+        padding-left: 0;
+        padding-right: 0;
+        gap: 100px;
+    }
+    .leftDivOfTxt > div{
+        font-size: 3.5vw !important;
+    }
+    .leftDivOfTxt > h4{
+        font-size: 1.43vw !important;
+    }
+    .HeroSection > div > div > img{
+        height: 34.5vw;
+        width: 29.5vw;
+    }
 }
