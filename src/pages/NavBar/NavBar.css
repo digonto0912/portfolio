@@ -1,4 +1,4 @@
-.NavBar{
+.NavBar {
     background: #fff;
     display: flex;
     height: 90px;
@@ -10,10 +10,12 @@
     padding-left: 200px;
     padding-right: 200px;
 }
-.navNameSide{
+
+.navNameSide {
     font-size: 30px;
 }
-.navPagesSide{
+
+.navPagesSide {
     display: flex;
     gap: 30px;
     font-size: 17px;
@@ -22,14 +24,72 @@
     text-align: center;
     align-items: center;
 }
-.navPagesSide > div > a {
+
+.navPagesSide>div>a {
     font-weight: 400;
     color: #010017;
     text-decoration: inherit;
 }
-.resumeBtn > a {
+
+.resumeBtn>a {
     color: #5600ff99 !important;
     border: 1px solid #5600ff99;
     padding: 7px;
     border-radius: 50px;
+}
+
+.mobileNav {
+    display: none;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1830px) {
+    .navPagesSide {
+        display: none;
+    }
+
+    .mobileNav {
+        position: relative;
+        display: block;
+    }
+
+    .mobileNavBtnIcon {
+        background: #0000000a;
+        padding: 10px;
+    }
+
+    .mobileNavBtnIcon>img {
+        height: 30px;
+    }
+
+    .mobileNavOptions {
+        display: grid;
+        gap: 30px;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        background: white;
+        height: auto;
+        padding: 20px;
+        right: 0;
+        margin-top: 20px;
+        box-shadow: 0 0 20px #0000000a;
+    }
+    .mobileNavOptions>a {
+        font-weight: 400;
+        color: #010017;
+        text-decoration: inherit;
+    }
+
+    .resumeBtn>div {
+        color: #5600ff99 !important;
+        border: 1px solid #5600ff99;
+        padding: 7px;
+        border-radius: 50px;
+    }
 }
