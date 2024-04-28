@@ -1,0 +1,55 @@
+.ProjectsHeader{
+    height: 500px;
+    color: black;
+    background: #bccafe12;
+    display: grid;
+    align-items: center;
+}
+.ProjectsHeader > div{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.ProjectsHeader > div >h1{
+    text-align: left;
+    font-size: 35px;
+}
+.ProjectsHeader > div >h4{
+    text-align: right;
+    font-size: 15px;
+}
+.ProjectsListDivHeadline{
+    text-align: center;
+    gap: 30px;
+    display: grid;
+    margin: 90px;
+}
+.ProjectsListDivHeadline > h5{
+    font-weight: 400;
+    font-size: 15px;
+}
+.ProjectsListDiv{
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 50px;
+}
+.ProjectsList{
+    grid-template-columns: repeat(3, 2fr);
+    display: grid;
+    gap: 50px;
+}
+.Project{
+    overflow: hidden;
+}
+.Project > img{
+    width: 100%;
+}
+.Project > div{
+    background: #00000012;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.Project > h5{
+    font-weight: 400;
+}

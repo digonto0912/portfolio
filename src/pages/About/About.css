@@ -1,9 +1,12 @@
 .About{
+    height: 100vh;
+}
+.About > div{
     display: flex;
     padding-left: 250px;
     padding-right: 250px;
     gap: 200px;
-    min-height: 100vh;
+    min-height: 750px;
 }
 .AboutImgDiv{
     overflow: hidden;

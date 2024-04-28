@@ -1,0 +1,21 @@
+.Contact{
+    display: flex;
+    padding: 200px;
+    gap: 50px;
+}
+.Contact > div{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: 0 0 20px #b8b5b52e;
+    border-radius: 10px;
+}
+.Contact > div > img{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+}
