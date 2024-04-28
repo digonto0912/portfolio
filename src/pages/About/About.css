@@ -1,11 +1,12 @@
 .About{
-    height: 100vh;
+    min-height: 100vh;
+    margin-bottom: 50px;
 }
 .About > div{
     display: flex;
     padding-left: 250px;
     padding-right: 250px;
-    gap: 200px;
+    gap: 10%;
     min-height: 750px;
 }
 .AboutImgDiv{
@@ -13,13 +14,35 @@
     justify-content: center;
     display: grid;
     width: 1800px;
+    max-height: 750px;
+    height: 84vh;
+}
+.AboutImgDiv > img{
+    width: 100%;
 }
 .aboutTxt{
     align-self: center;
+    font-size: 0.84vw;
+    width: 110vw;
 }
 .aboutTxt > h1{
     margin-bottom: 20px;
 }
 .aboutTxt > div > h2{
     font-weight: normal;
+}
+
+
+
+/* responsive */
+
+@media screen and (min-width: 1730px) {
+    .aboutTxt {
+        font-size:16px;
+    }
+}
+@media screen and (max-width: 1830px) {
+    .About > div{
+        min-height: 100vh;
+    }
 }
