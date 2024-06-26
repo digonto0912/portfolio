@@ -44,7 +44,7 @@
 
 /* responsive */
 
-@media screen and (max-width: 1830px) {
+@media screen and (max-width: 1300px) {
     .navPagesSide {
         display: none;
     }

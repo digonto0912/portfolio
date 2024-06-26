@@ -6,14 +6,14 @@ const Projects = () => {
             <div className="ProjectsHeader">
                 <div>
                 <h1>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis distinctio quam laudantium.
+                    Perfect is greater than Pretty Good
                 </h1>
                 <h4>- my belive</h4>
                 </div>
             </div>
             <div className="ProjectsListDiv">
                 <div className="ProjectsListDivHeadline">
-                <h1>my latest workd</h1>
+                <h1>my latest works</h1>
                 <h5>check my weork</h5>
                 </div>
                 <div className="ProjectsList">

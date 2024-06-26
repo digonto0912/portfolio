@@ -1,5 +1,5 @@
 .ProjectsHeader{
-    height: 500px;
+    height: calc(100vh - 190px);
     color: black;
     background: #bccafe12;
     display: grid;
@@ -10,12 +10,14 @@
     padding-right: 250px;
 }
 .ProjectsHeader > div >h1{
-    text-align: left;
+    text-align: center;
     font-size: 35px;
 }
 .ProjectsHeader > div >h4{
-    text-align: right;
+    text-align: center;
     font-size: 15px;
+    color: #545454;
+    margin-top: 10px;
 }
 .ProjectsListDivHeadline{
     text-align: center;
@@ -52,4 +54,16 @@
 }
 .Project > h5{
     font-weight: 400;
+}
+
+
+
+
+
+/* responsive */
+
+@media screen and (min-width: 2150px) {
+    .ProjectsHeader{
+        height: 720px;
+    }
 }
