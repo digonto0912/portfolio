@@ -23,7 +23,7 @@ function App() {
       <div className='completePage'>
         <NavBar></NavBar>
 
-        <Switch>
+        <Switch className="pageRootContain">
           <Route path="/home">
             <HomePage />
           </Route>

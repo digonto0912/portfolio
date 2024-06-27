@@ -2,6 +2,16 @@ import React, { useState } from 'react';
 import "./NavBar.css";
 import menuIcon from "../../../public/images/menu.png";
 
+// script.js
+window.addEventListener('scroll', function() {
+    const navbar = document.getElementById('navbar');
+    if (window.scrollY > 0) {
+        navbar.classList.add('shadow');
+    } else {
+        navbar.classList.remove('shadow');
+    }
+});
+
 const NavBar = () => {
     const [showMenu, setShowMenu] = useState(false);
 
@@ -10,7 +20,7 @@ const NavBar = () => {
     };
 
     return (
-        <div className="NavBar">
+        <div id="navbar" className="NavBar">
             <div className="navNameSide">Fardul Islam</div>
             <div className="navPagesSide">
                 <div><a href="/">HOME</a></div>

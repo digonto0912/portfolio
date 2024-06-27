@@ -1,9 +1,13 @@
+.Projects{
+    margin-top: 170px;
+}
 .ProjectsHeader{
     height: calc(100vh - 190px);
-    color: black;
+    color: black !important;
     background: #bccafe12;
     display: grid;
     align-items: center;
+    display: none;
 }
 .ProjectsHeader > div{
     padding-left: 250px;
@@ -39,8 +43,12 @@
     display: grid;
     gap: 50px;
 }
+.ProjectsList a{
+    color:black !important;
+}
 .Project{
     overflow: hidden;
+
 }
 .Project > img{
     width: 100%;
