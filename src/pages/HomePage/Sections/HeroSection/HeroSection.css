@@ -55,6 +55,25 @@
 
 
 /* responsive */
+@media screen and (max-width: 1005px) {
+    .HeroSection{
+        text-align: center;
+        height: auto !important;
+        padding: 50px 0;
+    }
+    .HeroSection > div{
+        display: grid;
+        justify-content: center;
+        gap: 0 !important;
+    }
+    .HeroSection > div > div{
+        display: grid;
+        justify-self: center;
+    }
+    .HeroSection > div > div > button {
+        justify-self: center;
+    }
+}
 @media screen and (max-width: 1734px) {
     .HeroSection{
         height: 105vh;

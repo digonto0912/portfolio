@@ -65,6 +65,7 @@
     .mobileNav {
         position: relative;
         display: block;
+        margin-right: 400px;
     }
 
     .mobileNavBtnIcon {
