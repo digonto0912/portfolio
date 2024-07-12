@@ -55,7 +55,7 @@ const Projects = () => {
                     </a>
 
                     {/* 14 */}
-                    <a href="#" target="_blank">
+                    <a href="https://github.com/digonto0912/langchain-docs-covering/tree/main" target="_blank">
                         <div className="Project">
                             <img src={img14} alt="" />
                             <div>12 12 april</div>
