@@ -5,6 +5,9 @@ const HeroSection = () => {
     return (
         <div className="HeroSection">
             <div>
+                <div className="imageDiv imageDivtop">
+                    <img src={abc} />
+                </div>
                 <div className="leftDivOfTxt">
                     <div>
                         <span>I am</span>
@@ -18,7 +21,7 @@ const HeroSection = () => {
                         MY PROJECTS
                     </button>
                 </div>
-                <div>
+                <div className="imageDiv imageDivbottom">
                     <img src={abc} />
                 </div>
             </div>

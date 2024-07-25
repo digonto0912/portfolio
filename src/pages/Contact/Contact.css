@@ -1,21 +1,50 @@
-.Contact{
+.Contact {
     display: flex;
     padding: 200px;
     gap: 50px;
+    text-align: -webkit-center;
+    min-height: 75vh;
+    align-content: center;
 }
-.Contact > div{
+
+.Contact>div {
     width: 100%;
     display: grid;
     align-items: center;
     justify-content: center;
-    background: white;
     box-shadow: 0 0 20px #b8b5b52e;
     border-radius: 10px;
+    height: 36vh;
+    background: #ffffff;
+    overflow: hidden;
+    text-align: -webkit-center;
 }
-.Contact > div > img{
+
+.Contact>div>img {
     width: 100%;
     display: grid;
     align-items: center;
     justify-content: center;
     background: rgb(255, 255, 255);
+}
+
+
+
+/* responsive {for phone}*/
+
+@media screen and (max-width: 1005px) {
+    .Contact>div {
+        margin-bottom: 20px;
+        height: 18vh;
+        /* background: black; */
+        display: grid;
+        align-content: center;
+        overflow: hidden;
+        width: 50vw;
+    }
+
+    .Contact {
+        padding: 50px;
+        display: block;
+    }
 }

@@ -17,32 +17,32 @@ const AreasOfInterest = () => {
                 <div className="AOICarts">
                     <div>
                         <img src={cc} className="h60" />
-                        <div>Cloud Compute</div>
+                        <div className="AOICarts_headline">Cloud Compute</div>
                         <div>I maintain servers for database storage, model training, and model deployment.</div>
                     </div>
                     <div>
                         <img src={nlp} className="h60" />
-                        <div>NLP</div>
+                        <div className="AOICarts_headline">NLP</div>
                         <div>I have worked with researchers to apply NLP techniques to make sense of the motivations behind human interactions.</div>
                     </div>
                     <div>
                         <img src={ml} className="h60" />
-                        <div>Machine Learning</div>
+                        <div className="AOICarts_headline">Machine Learning</div>
                         <div>Machine learning is more than an API call to scikit-learn. I love the math and theory as well as the implementation.</div>
                     </div>
                     <div>
                         <img src={wd} className="h60" />
-                        <div>Web Development</div>
+                        <div className="AOICarts_headline">Web Development</div>
                         <div>I regularly extract data from Hadoop databases using the HIVE framework.</div>
                     </div>
                     <div>
                         <img src={md} className="h60" />
-                        <div>Model Deployment</div>
+                        <div className="AOICarts_headline">Model Deployment</div>
                         <div>I implement machine learning models in real world production systems using REST APIS.</div>
                     </div>
                     <div>
                         <img src={da} className="h60" />
-                        <div>Data Analytics</div>
+                        <div className="AOICarts_headline">Data Analytics</div>
                         <div>I love telling a story. Making a beautiful and compelling presentation is one of my favorite skills.</div>
                     </div>
                 </div>

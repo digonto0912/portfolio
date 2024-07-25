@@ -1,7 +1,8 @@
-.Projects{
+.Projects {
     margin-top: 170px;
 }
-.ProjectsHeader{
+
+.ProjectsHeader {
     height: calc(100vh - 190px);
     color: black !important;
     background: #bccafe12;
@@ -9,79 +10,113 @@
     align-items: center;
     display: none;
 }
-.ProjectsHeader > div{
+
+.ProjectsHeader>div {
     padding-left: 250px;
     padding-right: 250px;
 }
-.ProjectsHeader > div >h1{
+
+.ProjectsHeader>div>h1 {
     text-align: center;
     font-size: 35px;
 }
-.ProjectsHeader > div >h4{
+
+.ProjectsHeader>div>h4 {
     text-align: center;
     font-size: 15px;
     color: #545454;
     margin-top: 10px;
 }
-.ProjectsListDivHeadline{
+
+.ProjectsListDivHeadline {
     text-align: center;
     gap: 30px;
     display: grid;
     margin: 90px;
 }
-.ProjectsListDivHeadline > h5{
+
+.ProjectsListDivHeadline>h5 {
     font-weight: 400;
     font-size: 15px;
 }
-.ProjectsListDiv{
+
+.ProjectsListDiv {
     padding-left: 200px;
     padding-right: 200px;
     margin-bottom: 50px;
 }
-.ProjectsList{
+
+.ProjectsList {
     grid-template-columns: repeat(3, 2fr);
     display: grid;
     gap: 50px;
+    color: black;
 }
-.ProjectsList a{
-    color:black !important;
-}
-.Project{
-    overflow: hidden;
 
+.ProjectsList a {
+    color: black !important;
 }
-.Project > img{
+
+.Project {
+    overflow: hidden;
+}
+
+.Project>img {
     width: 100%;
 }
-.Project > div{
+
+.Project>div {
     background: #00000012;
     margin-bottom: 20px;
     padding-left: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
 }
-.Project > h5{
+
+.Project>h5 {
     font-weight: 400;
 }
 
 
 
 
-
-/* responsive */
+/* responsive {for tab and laptop}*/
 
 @media screen and (max-width: 1600px) {
-    .ProjectsList{
+    .ProjectsList {
         grid-template-columns: repeat(2, 2fr);
     }
 }
-@media screen and (max-width: 1100px) {
-    .ProjectsList{
-        grid-template-columns: repeat(1, 2fr);
+
+@media screen and (min-width: 2150px) {
+    .ProjectsHeader {
+        height: 720px;
     }
 }
-@media screen and (min-width: 2150px) {
-    .ProjectsHeader{
-        height: 720px;
+
+
+
+/* responsive {for phone}*/
+
+@media screen and (max-width: 1005px) {
+    .ProjectsListDiv {
+        padding: 0;
+    }
+
+    .ProjectsList {
+        margin: 3%;
+        width: auto;
+        gap: 80px;
+    }
+    .ProjectsListDivHeadline{
+        margin: 90px 0px;
+        padding: 0 30px;
+    }
+}
+
+/* {for phone but just in carts list} */
+@media screen and (max-width: 1100px) {
+    .ProjectsList {
+        grid-template-columns: repeat(1, 2fr);
     }
 }

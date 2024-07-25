@@ -1,0 +1,58 @@
+[
+    {
+        "project-no.": 7,
+        "link": "https://github.com/digonto0912/NLP-with-NLTK",
+        "img": "../../../public/images/nlp-nltk.png",
+        "date": "12 12 april",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptate natus eos? Eaque sunt possimus numquam quia obcaecati delectus non molestias dicta asperiores enim libero, distinctio totam alias provident repudiandae."
+    },
+    {
+        "project-no.": 6,
+        "link": "https://github.com/digonto0912/twitter-sentiment-analysis",
+        "img": "../../../public/images/TSA.png",
+        "date": "12 12 april",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptate natus eos? Eaque sunt possimus numquam quia obcaecati delectus non molestias dicta asperiores enim libero, distinctio totam alias provident repudiandae."
+    },
+    {
+        "project-no.": 5,
+        "link": "https://github.com/digonto0912/case-study-1",
+        "img": "../../../public/images/CS1.png",
+        "date": "12 12 april",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptate natus eos? Eaque sunt possimus numquam quia obcaecati delectus non molestias dicta asperiores enim libero, distinctio totam alias provident repudiandae."
+    },
+    {
+        "project-no.": 4,
+        "link": "https://github.com/digonto0912/case-study-2",
+        "img": "../../../public/images/CS2.png",
+        "date": "12 12 april",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptate natus eos? Eaque sunt possimus numquam quia obcaecati delectus non molestias dicta asperiores enim libero, distinctio totam alias provident repudiandae."
+    },
+    {
+        "project-no.": 3,
+        "link": "https://github.com/digonto0912/Instagram-Bot---1",
+        "img": "../../../public/images/insta-bot-1.png",
+        "date": "12 12 april",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptate natus eos? Eaque sunt possimus numquam quia obcaecati delectus non molestias dicta asperiores enim libero, distinctio totam alias provident repudiandae."
+    },
+    {
+        "project-no.": 2,
+        "link": "https://github.com/digonto0912/Instagram-Bot---2",
+        "img": "../../../public/images/insta-bot-2.png",
+        "date": "12 12 april",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptate natus eos? Eaque sunt possimus numquam quia obcaecati delectus non molestias dicta asperiores enim libero, distinctio totam alias provident repudiandae."
+    },
+    {
+        "project-no.": 1,
+        "link": "https://github.com/digonto0912/gradient-descent-batch-from-scratch",
+        "img": "../../../public/images/gradient descent batch.png",
+        "date": "12 12 april",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptate natus eos? Eaque sunt possimus numquam quia obcaecati delectus non molestias dicta asperiores enim libero, distinctio totam alias provident repudiandae."
+    }
+]

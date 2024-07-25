@@ -1,10 +1,10 @@
-.HeroSection{
-    height: 1000px;
+.HeroSection {
     padding-left: 200px;
     padding-right: 200px;
     background: #bccafe12;
 }
-.HeroSection > div{
+
+.HeroSection>div {
     padding-top: 47px;
     display: flex;
     align-items: center;
@@ -12,27 +12,37 @@
     padding-left: 43px;
     padding-right: 43px;
 }
-.HeroSection > div > .leftDivOfTxt{
+
+.imageDivtop {
+    display: none;
+}
+.imageDivbottom{
+    margin-bottom: 100px;
+}
+.HeroSection>div>.leftDivOfTxt {
     width: 45%;
     position: relative;
     top: -40px;
 }
-.HeroSection > div > div > div{
-    font-size: 60px;
+
+.leftDivOfTxt>div {
     line-height: 1.2;
     margin-bottom: 25px;
     font-weight: bold;
 }
-.HeroSection > div > div > div > span{
+
+.leftDivOfTxt>div>span {
     font-size: 25px;
 }
-.HeroSection > div > div > h4{
+
+.leftDivOfTxt>h4 {
     font-weight: 300;
     font-size: 25px;
     margin-bottom: 20px;
 }
-.HeroSection > div > div > button{
-    background: linear-gradient(to right, #2a03ff91, #00b1ff8c);
+
+.HeroSection>div>div>button {
+    background: linear-gradient(to right, #7e68f7, #75d3fc);
     border: none;
     color: white;
     font-weight: bold;
@@ -43,7 +53,8 @@
     align-items: center;
     display: grid;
 }
-.HeroSection > div > div > img{
+
+.HeroSection>div>div>img {
     height: 36.5vw;
     width: 31.5vw;
     max-height: 690px;
@@ -54,43 +65,121 @@
 
 
 
-/* responsive */
+
+/* responsive {for mobile} */
 @media screen and (max-width: 1005px) {
-    .HeroSection{
+
+    /* complete hero section */
+    .HeroSection {
         text-align: center;
         height: auto !important;
-        padding: 50px 0;
+        padding: 50px;
+
+        /* optional edite this latter */
+        height: 79vh !important;
+        display: grid;
+        gap: 0;
+        align-items: center;
     }
-    .HeroSection > div{
+
+    /* hero section under 2 div [text, image] in 1 dive like this way: hs > div > [text,img]*/
+    .HeroSection>div {
         display: grid;
         justify-content: center;
         gap: 0 !important;
+        margin: 0;
+        padding: 0;
     }
-    .HeroSection > div > div{
+
+    /* both div in hs [text, img] */
+    .HeroSection>div>div {
         display: grid;
         justify-self: center;
     }
-    .HeroSection > div > div > button {
+
+    /* top image div */
+    .imageDivtop {
+        display: grid;
+    }
+
+    /* all text side in H.S. */
+    .leftDivOfTxt {
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+    }
+
+    /* text side header */
+    .leftDivOfTxt>div {
+        margin: 50px 0 25px 0;
+        font-size: 10vw !important;
+    }
+
+    .leftDivOfTxt>div>span {
+        font-size: 6vw;
+    }
+
+    /* text side header under title line */
+    .leftDivOfTxt>h4 {
+        font-size: 4vw !important;
+    }
+
+    /* text side button */
+    .HeroSection>div>div>button {
         justify-self: center;
+        height: auto;
+        width: auto;
+        align-items: center;
+        display: grid;
+        font-size: 3vw;
+        margin-top: 1vh;
+        padding: 2vh 7vw;
+    }
+
+    /* H.S. img side main div */
+    .imageDiv {
+        border-radius: 100%;
+        overflow: hidden;
+        height: 80%;
+    }
+
+    .imageDivbottom {
+        display: none !important;
     }
 }
+
+/* respons for {tab} */
 @media screen and (max-width: 1734px) {
-    .HeroSection{
-        height: 105vh;
-    }
-    .HeroSection > div{
+    .HeroSection>div {
         padding-left: 0;
         padding-right: 0;
         gap: 100px;
     }
-    .leftDivOfTxt > div{
-        font-size: 3.5vw !important;
+
+    .leftDivOfTxt>div {
+        font-size: 3.5vw;
     }
-    .leftDivOfTxt > h4{
-        font-size: 1.43vw !important;
+
+    .leftDivOfTxt>h4 {
+        font-size: 1.43vw;
     }
-    .HeroSection > div > div > img{
+
+    .HeroSection>div>div>img {
         height: 34.5vw;
         width: 29.5vw;
+    }
+}
+
+
+/* respons for {laptop} */
+@media screen and (min-width: 1735px) {
+    .leftDivOfTxt>div {
+        font-size: 60px;
+    }
+
+    .leftDivOfTxt>h4 {
+        font-weight: 300;
+        font-size: 25px;
+        margin-bottom: 20px;
     }
 }

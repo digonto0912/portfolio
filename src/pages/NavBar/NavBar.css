@@ -9,13 +9,14 @@
     font-size: 16px;
     padding-left: 200px;
     padding-right: 200px;
-    
+
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
     transition: box-shadow 0.3s ease-in-out;
-    max-width: 2150px;
+    max-width: 1750px;
+    width: -webkit-fill-available;
 }
 
 .shadow {
@@ -34,8 +35,6 @@
     height: 100%;
     text-align: center;
     align-items: center;
-
-    margin-right: 400px;
 }
 
 .navPagesSide>div>a {
@@ -55,7 +54,23 @@
     display: none;
 }
 
-/* responsive */
+
+
+
+
+/* responsive {for mobile} */
+@media screen and (max-width: 1005px) {
+    .NavBar {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5vw;
+    }
+}
+
+
+
+/* responsive {for tab}*/
 
 @media screen and (max-width: 1300px) {
     .navPagesSide {
@@ -65,7 +80,6 @@
     .mobileNav {
         position: relative;
         display: block;
-        margin-right: 400px;
     }
 
     .mobileNavBtnIcon {
@@ -94,6 +108,7 @@
         margin-top: 20px;
         box-shadow: 0 0 20px #0000000a;
     }
+
     .mobileNavOptions>a {
         font-weight: 400;
         color: #010017;
