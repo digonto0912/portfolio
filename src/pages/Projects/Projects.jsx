@@ -1,53 +1,51 @@
-import "./Projects.css";
+// src/components/Projects.js
 import React, { useEffect, useState } from 'react';
+import { db, collection, getDocs } from '../Firebase/Firebase_init';
+import "./Projects.css";
 
 const Projects = () => {
-
     const [ProjectLists, setProjectLists] = useState([]);
 
     useEffect(() => {
-        fetch("../../../public/json data/projects.json")
-            .then(res => res.json())
-            .then(data => setProjectLists(data))
-    }, []);
+        const fetchProjects = async () => {
+            const querySnapshot = await getDocs(collection(db, "projects"));
+            const projectsData = querySnapshot.docs.map(doc => doc.data());
+            setProjectLists(projectsData);
+        };
 
-    // html part
+        fetchProjects();
+    }, []);
+    
+    console.log(ProjectLists);
+    
     return (
         <div className="Projects">
-
-            {/* projeect page hero secstion. what is shutdown now */}
             <div className="ProjectsHeader">
                 <div>
-                    <h1>
-                        Perfect is greater than Pretty Good
-                    </h1>
-                    <h4>- my belive</h4>
+                    <h1>Perfect is greater than Pretty Good</h1>
+                    <h4>- my belief</h4>
                 </div>
             </div>
 
-            {/* projects with headline start from here */}
             <div className="ProjectsListDiv">
                 <div className="ProjectsListDivHeadline">
                     <h1>my latest works</h1>
-                    <h5>check my weork</h5>
+                    <h5>check my work</h5>
                 </div>
 
-                {/* all projects start from here */}
                 <div className="ProjectsList">
-
                     {
-                        ProjectLists.map(ProjectList => <>
-                            <a href={ProjectList?.link} target="_blank">
+                        ProjectLists.map((project, index) => (
+                            <a key={index} href={project.link} target="_blank" rel="noopener noreferrer">
                                 <div className="Project">
-                                    <img src={ProjectList?.img} alt="" />
-                                    <div>{ProjectList?.date}</div>
-                                    <h3>{ProjectList?.title}</h3>
-                                    <h5>{ProjectList?.desc}</h5>
+                                    <img src={project.img} alt={project.title} />
+                                    <div>{project.date}</div>
+                                    <h3>{project.title}</h3>
+                                    <h5>{project.desc}</h5>
                                 </div>
                             </a>
-                        </>)
+                        ))
                     }
-
                 </div>
             </div>
         </div>

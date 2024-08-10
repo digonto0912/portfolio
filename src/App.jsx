@@ -13,6 +13,7 @@ import Projects from "./pages/Projects/Projects"
 import Blog from "./pages/Blog/Blog"
 import Contact from "./pages/Contact/Contact"
 import Resume from "./pages/Resume/Resume"
+import Dashboard from "./pages/Dashboard/Dashboard"
 import Footer from "./pages/Footer/Footer"
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/dashboard">
+            <Dashboard />
           </Route>
           <Route path="/projects">
             <Projects />
