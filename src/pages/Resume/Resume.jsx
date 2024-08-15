@@ -1,5 +1,3 @@
-
-
 import "./Resume.css";
 import resumeImg from "../../../public/images/fidresume.png";
 
@@ -11,9 +9,11 @@ const Resume = () => {
             </div>
             <div className="resumeImgDiv">
                 <h1>Resume</h1>
-                <div className="resumeImg">
-                    <img src={resumeImg} />
-                </div>
+                <a href="https://drive.google.com/file/d/1BAIhy9qDPwi3K4zKXgtOFpAsLBlyzWEU/view?usp=drive_link">
+                    <div className="resumeImg">
+                        <img src={resumeImg} />
+                    </div>
+                </a>
             </div>
         </div>
     );
