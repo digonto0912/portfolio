@@ -1,7 +1,7 @@
 // src/components/Projects.js
 import React, { useEffect, useState } from 'react';
 import { db, collection, getDocs } from '../Firebase/Firebase_init';
-import "./Projects.css";
+import "./Skills.css";
 
 const Projects = () => {
     const [ProjectLists, setProjectLists] = useState([]);
