@@ -10,6 +10,7 @@ import NavBar from "./pages/NavBar/NavBar"
 import HomePage from "./pages/HomePage/HomePage"
 import About from "./pages/About/About"
 import Projects from "./pages/Projects/Projects"
+import Skills from "./pages/Skills/Skills"
 import Blog from "./pages/Blog/Blog"
 import Contact from "./pages/Contact/Contact"
 import Resume from "./pages/Resume/Resume"
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route path="/projects">
             <Projects />
+          </Route>
+          <Route path="/skills">
+            <Skills />
           </Route>
           <Route path="/blog">
             <Blog />
