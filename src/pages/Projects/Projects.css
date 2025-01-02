@@ -1,5 +1,6 @@
 .Projects {
     margin-top: 17px;
+    min-height: 100vh;
 }
 
 .ProjectsHeader {

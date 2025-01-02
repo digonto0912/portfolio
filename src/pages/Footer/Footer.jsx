@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
     return (
         <div className="Footer">
-            @ copyright 2024
+            © Last Update 2025
         </div>
     );
 };
