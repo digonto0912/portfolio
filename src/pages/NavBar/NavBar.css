@@ -37,6 +37,12 @@
     align-items: center;
 }
 
+.navPagesSide>div {
+    height: -webkit-fill-available;
+    align-items: center;
+    display: grid;
+}
+
 .navPagesSide>div>a {
     font-weight: 400;
     color: #010017;
