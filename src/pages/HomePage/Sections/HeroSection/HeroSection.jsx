@@ -15,7 +15,7 @@ const HeroSection = () => {
                         Fardul Islam
                     </div>
                     <h4>
-                        Innovative Integrator: Uniting Data Science, ML, and Web Dev with Passion and Precision.
+                        Bringing Over 5 Years of Expertise in Full-Stack Web Development, Data Science, and Machine Learning
                     </h4>
                     <button>
                         MY PROJECTS

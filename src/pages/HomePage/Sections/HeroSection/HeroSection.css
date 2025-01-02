@@ -1,7 +1,8 @@
 .HeroSection {
     padding-left: 200px;
     padding-right: 200px;
-    background: #bccafe12;
+    background: #f6f8ff;
+    color: #001141;
 }
 
 .HeroSection>div {
