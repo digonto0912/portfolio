@@ -42,7 +42,7 @@
     margin-bottom: 20px;
 }
 
-.HeroSection>div>div>button {
+.HeroSection>div>div>a>button {
     background: linear-gradient(to right, #7e68f7, #75d3fc);
     border: none;
     color: white;
@@ -126,7 +126,7 @@
     }
 
     /* text side button */
-    .HeroSection>div>div>button {
+    .HeroSection>div>div>a>button {
         justify-self: center;
         height: auto;
         width: auto;

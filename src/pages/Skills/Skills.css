@@ -1,122 +1,174 @@
-.Projects {
-    margin-top: 17px;
-}
-
-.ProjectsHeader {
-    height: calc(100vh - 190px);
-    color: black !important;
-    background: #bccafe12;
-    display: grid;
-    align-items: center;
-    display: none;
-}
-
-.ProjectsHeader>div {
-    padding-left: 250px;
-    padding-right: 250px;
-}
-
-.ProjectsHeader>div>h1 {
+.SkillsListDivHeadline {
     text-align: center;
-    font-size: 35px;
-}
-
-.ProjectsHeader>div>h4 {
-    text-align: center;
-    font-size: 15px;
-    color: #545454;
-    margin-top: 10px;
-}
-
-.ProjectsListDivHeadline {
-    text-align: center;
-    gap: 30px;
-    display: grid;
-    margin: 90px;
-}
-
-.ProjectsListDivHeadline>h5 {
-    font-weight: 400;
-    font-size: 15px;
-}
-
-.ProjectsListDiv {
-    padding-left: 200px;
-    padding-right: 200px;
-    margin-bottom: 50px;
-}
-
-.ProjectsList {
-    grid-template-columns: repeat(3, 2fr);
-    display: grid;
     gap: 50px;
+    display: grid;
+    margin: 50px 20px 0px;
+}
+
+.SkillsListDivHeadline>.SkillsPageHeadline {
+    display: grid;
+    gap: 15px;
+}
+
+.SkillsListDiv {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 50px;
+
+}
+
+.skillsBoxTitle {
+    width: max-content;
+    padding: 5px 15px 5px 0;
+}
+
+.skillsBoxTitle>h1 {
+    font-size: 2rem !important;
+    color: #464646 !important;
+}
+
+.SkillsTypeSeletionButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+
+.SkillsTypeSeletionButton>img {
+    width: 12px;
+}
+
+.stagesOfSkills {
+    display: grid;
+    gap: 20px;
+}
+
+.skillsBoxSkills {
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ededed;
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 10fr 2fr;
+}
+
+.skillsHeadRow {
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    padding: 0 0 0 20px;
+    background: #423a3a33;
+    color: #000000;
+}
+
+.skillsHeadColumn {
+    align-items: center;
+    padding: 0;
+    flex-direction: column;
+    padding: 20px;
+    background: #6C757D;
+    color: white;
+}
+
+.skillsHeadRow>h4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 7%;
+    rotate: -90deg;
+    font-size: 1.3rem;
+}
+
+.skillsHeadColumn>h4 {
+    rotate: none !important;
+}
+
+.bg-RoyalBlue {
+    background: #007BFF !important;
+}
+
+.bg-DeepPurple {
+    background: #6F42C1 !important;
+}
+
+.bg-EmeraldGreen {
+    background: #28A745 !important;
+}
+
+.bg-AmberYellow {
+    background: #FFC107 !important;
+}
+
+.bg-SkyBlue {
+    background: #17A2B8 !important;
+}
+
+.bg-WarmRed {
+    background: #DC3545 !important;
+}
+
+.bg-SunsetOrange {
+    background: #FD7E14 !important;
+}
+
+.skillsCartSingleColumn {
+    border-radius: 20px;
+    color: white;
+}
+
+.skillsCartSingleColumn>h3 {
+    padding: 20px 0 0 20px !important;
+    text-align: left !important;
+    margin: 0 !important;
+    color: white !important;
+}
+
+.allSkills {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    padding: 30px 20px;
+    border-radius: 20px;
+    width: -webkit-fill-available;
+}
+
+.allSkillsInSub {
+    padding: 10px 20px;
+}
+
+.skillsBoxDualColumn {
+    background: none !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    padding: 20px !important;
+    margin: 0 !important;
+    gap: 20px !important;
+}
+
+.singleSkill {
+    background: white;
     color: black;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-.ProjectsList a {
-    color: black !important;
+.skillsHeadColumn .singleSkill {
+    width: -webkit-fill-available;
+    justify-content: space-between;
 }
 
-.Project {
-    overflow: hidden;
+.singleSkill>div {
+    font-weight: bold;
 }
 
-.Project>img {
-    width: 100%;
-}
-
-.Project>div {
-    background: #00000012;
-    margin-bottom: 20px;
-    padding-left: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
-.Project>h5 {
-    font-weight: 400;
-}
-
-
-
-
-/* responsive {for tab and laptop}*/
-
-@media screen and (max-width: 1600px) {
-    .ProjectsList {
-        grid-template-columns: repeat(2, 2fr);
-    }
-}
-
-@media screen and (min-width: 2150px) {
-    .ProjectsHeader {
-        height: 720px;
-    }
-}
-
-
-
-/* responsive {for phone}*/
-
-@media screen and (max-width: 1005px) {
-    .ProjectsListDiv {
-        padding: 0;
-    }
-
-    .ProjectsList {
-        margin: 3%;
-        width: auto;
-        gap: 80px;
-    }
-    .ProjectsListDivHeadline{
-        margin: 90px 0px;
-        padding: 0 30px;
-    }
-}
-
-/* {for phone but just in carts list} */
-@media screen and (max-width: 1100px) {
-    .ProjectsList {
-        grid-template-columns: repeat(1, 2fr);
-    }
+.singleSkill>img {
+    background: white;
+    width: 40px;
+    border-radius: 20px;
+    aspect-ratio: 3 / 3;
 }

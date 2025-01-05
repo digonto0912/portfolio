@@ -27,7 +27,7 @@ const NavBar = () => {
                 <div><a href="/about">ABOUT</a></div>
                 <div><a href="/projects">PROJECTS</a></div>
                 <div><a href="/skills">MY SKILLS</a></div>
-                <div><a href="/blog">BLOG</a></div>
+                {/* <div><a href="/blog">BLOG</a></div> */}
                 <div><a href="/contact-info">CONTACT INFO</a></div>
                 <div className="resumeBtn"><a href="/resume">MY RESUME</a></div>
             </div>

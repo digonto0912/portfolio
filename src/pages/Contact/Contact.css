@@ -7,7 +7,7 @@
     align-content: center;
 }
 
-.Contact>div {
+.Contact>a {
     width: 100%;
     display: grid;
     align-items: center;
@@ -20,7 +20,7 @@
     text-align: -webkit-center;
 }
 
-.Contact>div>img {
+.Contact>a>img {
     width: 100%;
     display: grid;
     align-items: center;
@@ -33,7 +33,7 @@
 /* responsive {for phone}*/
 
 @media screen and (max-width: 1005px) {
-    .Contact>div {
+    .Contact>a {
         margin-bottom: 20px;
         height: 18vh;
         /* background: black; */

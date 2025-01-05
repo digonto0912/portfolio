@@ -1,5 +1,5 @@
 import "./HeroSection.css";
-import abc from "../../../../../public/images/med (2).png";
+import abc from "../../../../../public/images/fardulDigonto.png";
 
 const HeroSection = () => {
     return (
@@ -17,9 +17,11 @@ const HeroSection = () => {
                     <h4>
                         Bringing Over 5 Years of Expertise in Full-Stack Web Development, Data Science, and Machine Learning
                     </h4>
-                    <button>
-                        MY PROJECTS
-                    </button>
+                    <a href="/projects">
+                        <button>
+                            MY PROJECTS
+                        </button>
+                    </a>
                 </div>
                 <div className="imageDiv imageDivbottom">
                     <img src={abc} />

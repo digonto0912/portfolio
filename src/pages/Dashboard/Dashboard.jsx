@@ -3,14 +3,14 @@ import axios from 'axios';
 import './Dashboard.css';
 
 const Dashboard = () => {
-  const [project, setProject] = useState({
+  const [project, setProject] = useState([{
     projectNo: '',
     link: '',
     img: null,
     date: '',
     title: '',
     desc: ''
-  });
+  }]);
 
   const [projects, setProjects] = useState([]);
 
@@ -59,6 +59,8 @@ const Dashboard = () => {
     fetchProjects();
   }, []);
 
+  console.log(projects);
+  
   return (
     <div className="container">
       <form onSubmit={handleSubmit}>
@@ -73,7 +75,7 @@ const Dashboard = () => {
 
       <h2>Projects</h2>
       <ul>
-        {projects.map((proj, index) => (
+        {project && project?.map((proj, index) => (
           <li key={index}>
             <img src={proj.img} alt={`Project ${proj.projectNo}`} />
             <div>

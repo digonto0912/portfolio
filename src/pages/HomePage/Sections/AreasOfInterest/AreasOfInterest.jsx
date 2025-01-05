@@ -16,6 +16,11 @@ const AreasOfInterest = () => {
                 </div>
                 <div className="AOICarts">
                     <div>
+                        <img src={wd} className="h60" />
+                        <div className="AOICarts_headline">Web Development</div>
+                        <div>I build responsive and efficient web applications using the MERN stack, focusing on both functionality and user experience</div>
+                    </div>
+                    <div>
                         <img src={cc} className="h60" />
                         <div className="AOICarts_headline">Cloud Compute</div>
                         <div>I maintain servers for database storage, model training, and model deployment.</div>
@@ -29,11 +34,6 @@ const AreasOfInterest = () => {
                         <img src={ml} className="h60" />
                         <div className="AOICarts_headline">Machine Learning</div>
                         <div>Machine learning is more than an API call to scikit-learn. I love the math and theory as well as the implementation.</div>
-                    </div>
-                    <div>
-                        <img src={wd} className="h60" />
-                        <div className="AOICarts_headline">Web Development</div>
-                        <div>I regularly extract data from Hadoop databases using the HIVE framework.</div>
                     </div>
                     <div>
                         <img src={md} className="h60" />
