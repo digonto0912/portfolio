@@ -15,8 +15,8 @@ import Blog from "./pages/Blog/Blog"
 import Contact from "./pages/Contact/Contact"
 import Resume from "./pages/Resume/Resume"
 import Dashboard from "./pages/Dashboard/Dashboard"
-import Footer from "./pages/Footer/Footer"
 import ProjectsDetails from './pages/ProjectsDetails/ProjectsDetails';
+import EraGroupOverview from './pages/ProjectsDetails/Modules/EiraGroupOverview';
 
 function App() {
 
@@ -41,6 +41,9 @@ function App() {
           </Route>
           <Route path="/project-details/:id">
             <ProjectsDetails />
+          </Route>
+          <Route path="/EraGroupOverview">
+            <EraGroupOverview />
           </Route>
           <Route path="/skills">
             <Skills />

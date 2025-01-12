@@ -29,7 +29,7 @@ const WebDevelopment = ({
                             </div>
 
                             <br />
-                            <a href={`project-details/${"eira-erp"}`} target="_blank">
+                            <a href={`project-details/${"eira-erp"}`} >
                                 <button className="WEProjectBtn">Details</button>
                             </a>
                         </div>
@@ -53,13 +53,23 @@ const WebDevelopment = ({
                                     <br />
                                     <div>Project: Side Project</div>
                                     <div>Date: {project.date}</div>
+
+                                    <br />
+                                    <div>Live View: <a
+                                        href="https://magical-programmer.netlify.app/"
+                                        target="_blank">
+                                        https://magical-programmer
+                                    </a>
+                                    </div>
+
+                                    <br />
+                                    <div>GitHub:       <a
+                                        href="https://github.com/digonto0912/magical-programmer"
+                                        target="_blank">
+                                        digonto0912/magical-programmer
+                                    </a>
+                                    </div>
                                 </div>
-
-                                <br />
-
-                                <a href={project.link} target="_blank" >
-                                    <button className="WEProjectBtn">Details</button>
-                                </a>
                             </div>
                         </div>
                     </div>

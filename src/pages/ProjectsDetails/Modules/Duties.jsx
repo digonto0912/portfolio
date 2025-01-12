@@ -3,7 +3,7 @@ import React from "react"
 const Duties = (props) => {
   return (
     <div>
-      Duties
+        Duties      
     </div>
   )
 };

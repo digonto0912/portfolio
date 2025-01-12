@@ -1,7 +1,8 @@
-import React from "react"
+import React, { useState } from "react"
 import introImg from "../../../../public/images/project details/introImg.png"
 
 const Introduction = () => {
+
   return (
     <div className="IntroductionSection">
       <div className="IntroductionPart">
@@ -18,19 +19,22 @@ const Introduction = () => {
           </div>
           <div className="Introduction_text">
             <div>
-              Sector. Ever since the 1500s, the standard placeholder text in the sector has been Lorem Ipsum, originating from.
+              <h3>summary:</h3>
+
+              <br />
+              🔹 Developed a tailored ERP software for ERA Group, a house preservation service provider.
 
               <br />
               <br />
-              1. unidentified printmaker who.
-              <br />
-              2. he sector has been Lorem Ipsum.
-              <br />
-              3. he he sector Lorem Ipsum
+              🔹 Features include client profiles, work orders, inspections, invoices, and progress tracking.
 
               <br />
               <br />
-              holder text in the sector has been Lorem Ipsum.
+              🔹 Streamlined workflows for field workers, office admins, and clients ensure transparency, efficiency, and accountability.
+
+              <br />
+              <br />
+              <a href="/EraGroupOverview"> <h3>Read Details</h3> </a>
             </div>
           </div>
         </div>

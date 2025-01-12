@@ -29,7 +29,15 @@ const Inspiration = () => {
           </div>
 
           <div className="InspirationText">
-            My inspiration for this project was American conceptual and minimalist sculptor Carl Andre. I was initially introduced to his works with an exhibition at the Milwaukee Art Museum of 144 Magnesium Square, and I was initially enticed by its perceived simplicity, and, more notably, because visitors were allowed to interact with the art by walking on top of the metal squares. His body of work primarily consists of these grids of metal squares, as well as other simple, geometric constructions. In looking for an installation artist, I thought I could use Andre's characteristic grid technique to create a specific meaning relating to my theme of the American West. I was also initially enticed to the appeared simplicity of his works, as I'm often attracted to artists who create simple seeming work, that, in reality, requires extensive work and planning, which the project did for me.
+            Eira Company drew significant inspiration for its ERP software architecture from Property Pres Wizard (PPW), a leading work order management solution specializing in property preservation services. PPW, now a part of Verisk, offers a comprehensive suite of tools designed to streamline field service tasks, manage work orders, and ensure compliance with industry regulations.
+            
+            <br />
+            <br />
+            <a href="https://home.propertypreswizard.com/?utm_source=chatgpt.com" target="_blank">PPW - PROPERTY PRESERVATION WIZARD </a>
+
+            <br />
+            <br />
+            By studying PPW's robust features and seamless integration capabilities, Eira Company was motivated to develop a system that enhances operational efficiency and transparency in property preservation. This inspiration led to the creation of an ERP solution that mirrors PPW's strengths, such as intuitive interfaces, comprehensive work order management, and real-time data collection, tailored to meet the specific needs of their clients.
           </div>
         </div>
       </div>
