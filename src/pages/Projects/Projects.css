@@ -253,6 +253,10 @@
         margin: 90px 0px;
         padding: 0 30px;
     }
+
+    .WDProjectsList .mt-50 {
+        padding: 0 40px;
+    }
 }
 
 /* {for phone but just in carts list} */
