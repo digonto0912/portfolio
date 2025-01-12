@@ -111,6 +111,7 @@
 
 .WEProjectBtn {
     background: linear-gradient(to right, #7e68f7, #75d3fc);
+    color: white;
     border: 0;
     border-radius: 3.1px;
 }

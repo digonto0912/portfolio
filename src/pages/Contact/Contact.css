@@ -1,10 +1,12 @@
 .Contact {
     display: flex;
-    padding: 200px;
     gap: 50px;
     text-align: -webkit-center;
-    min-height: 75vh;
-    align-content: center;
+
+    min-height: calc(100vh - 91px);
+    padding: 0 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .Contact>a {
@@ -36,11 +38,11 @@
     .Contact>a {
         margin-bottom: 20px;
         height: 18vh;
-        /* background: black; */
         display: grid;
         align-content: center;
         overflow: hidden;
-        width: 50vw;
+        width: 100%;
+        height: 100%;
     }
 
     .Contact {

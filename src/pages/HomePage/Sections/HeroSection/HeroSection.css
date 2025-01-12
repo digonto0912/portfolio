@@ -45,7 +45,7 @@
 .HeroSection>div>div>a>button {
     background: linear-gradient(to right, #7e68f7, #75d3fc);
     border: none;
-    color: white;
+    color: white !important;
     font-weight: bold;
     padding: 13px;
     border-radius: 0;
@@ -126,6 +126,9 @@
     }
 
     /* text side button */
+    .HeroSection>div>div>a {
+        display: grid;
+    }
     .HeroSection>div>div>a>button {
         justify-self: center;
         height: auto;

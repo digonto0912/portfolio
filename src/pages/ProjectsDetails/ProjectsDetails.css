@@ -270,8 +270,131 @@
 
 
 
+@media screen and (min-width:2150px) {
+    .Projects_details_hero_section {
+        min-height: 1062px;
+    }
+
+    .Projects_details_hero_section>div {
+        padding-top: 210px;
+    }
+
+    .HR_video video {
+        width: 907.19px;
+    }
+
+    .HR_text_core>div>h1 {
+        font-size: 65.28px;
+    }
+
+    .HR_text_headline_bottom_line {
+        width: 174.08px;
+    }
+
+    .liveView_and_code .source_code {
+        width: 500px;
+        font-size: 21px;
+    }
+}
+
 @media screen and (min-width:1500px) {
     .Projects_details_hero_section>div {
         padding-top: 8vw;
+    }
+}
+
+@media screen and (max-width:1352px) {
+    .Introduction_img_text {
+        flex-direction: column;
+    }
+
+    .Introduction_img>img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1266px) {
+    .HR_text_video {
+        padding-top: 10px;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .HR_text_core {
+        text-align: center;
+        padding: 0 0 80px 0;
+    }
+
+    .HR_text_headline_bottom_line {
+        place-self: center;
+    }
+
+    .HR_video video {
+        height: auto;
+    }
+
+    .liveView_and_code {
+        justify-items: center;
+    }
+
+    .liveView_and_code>a {
+        color: #646cff;
+    }
+}
+
+@media screen and (max-width:1005px) {
+
+    .Projects_details_hero_section,
+    .PD_overview,
+    .InspirationPart {
+        padding: 0 5vw;
+    }
+
+    .FinishingSectionText {
+        padding: 200px 5vw;
+    }
+
+    .FinishingSectionText h1 {
+        font-size: 2.5em;
+    }
+
+    .HR_video video {
+        width: 100%;
+    }
+
+    .HR_text_core>div>h1 {
+        font-size: 50px;
+    }
+
+    .HR_text_headline_bottom_line {
+        width: 133px;
+    }
+
+    .HR_text_headline_bottom_line {
+        width: 158px;
+        font-size: 12px;
+    }
+
+    .liveView_and_code .source_code {
+        width: 50%;
+        font-size: 13px;
+    }
+
+    .InspirationImages {
+        flex-direction: column;
+        gap: 90px;
+    }
+}
+
+@media screen and (max-width:604px) {
+    .TechnolgyUsed .TechnolgysBoxsSection {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .liveView_and_code .source_code {
+        width: 230px;
     }
 }

@@ -3,7 +3,7 @@ import "./NavBar.css";
 import menuIcon from "../../../public/images/menu.png";
 
 // script.js
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
     const navbar = document.getElementById('navbar');
     if (window.scrollY > 0) {
         navbar.classList.add('shadow');
@@ -44,7 +44,8 @@ const NavBar = () => {
                         <a href="/"><div>HOME</div></a>
                         <a href="/about"><div>ABOUT</div></a>
                         <a href="/projects"><div>PROJECTS</div></a>
-                        <a href="/blog"><div>BLOG</div></a>
+                        <a href="/skills"><div>MY SKILLS</div></a>
+                        {/* <a href="/blog"><div>BLOG</div></a> */}
                         <a href="/contact-info"><div>CONTACT INFO</div></a>
                         <a href="/resume" className="resumeBtn"><div>MY RESUME</div></a>
                     </div>
