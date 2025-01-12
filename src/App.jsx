@@ -16,6 +16,7 @@ import Contact from "./pages/Contact/Contact"
 import Resume from "./pages/Resume/Resume"
 import Dashboard from "./pages/Dashboard/Dashboard"
 import Footer from "./pages/Footer/Footer"
+import ProjectsDetails from './pages/ProjectsDetails/ProjectsDetails';
 
 function App() {
 
@@ -38,6 +39,9 @@ function App() {
           <Route path="/projects">
             <Projects />
           </Route>
+          <Route path="/project-details/:id">
+            <ProjectsDetails />
+          </Route>
           <Route path="/skills">
             <Skills />
           </Route>
@@ -55,11 +59,28 @@ function App() {
           </Route>
         </Switch>
 
-        <Footer></Footer>
       </div>
 
     </Router>
   )
+
+
+  // Routers
+  //   const router = createBrowserRouter([
+  //     {
+  //       // temp file
+  //       path: "/",
+  //       element: <><MainButton /></>
+  //     },
+  //   ])
+
+  //   return (
+  //     <>
+  //       <RouterProvider router={router} />
+  //     </>
+  //   )
+  // }
+
 }
 
 export default App

@@ -1,11 +1,10 @@
 [
     {
-        "date": "none",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptate natus eos? Eaque sunt possimus numquam quia obcaecati delectus non molestias dicta asperiores enim libero, distinctio totam alias provident repudiandae.",
-        "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-fid.appspot.com/o/1723048000461_img6.jpg?alt=media&token=e8b693e9-6e70-4dcc-ae89-4d125fda10ec",
+        "date": "July 2021",
+        "title": "Magical Programmer",
+        "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-fid.appspot.com/o/magical-programmer.jpg?alt=media&token=009dc735-9c33-4ddc-b041-5f349523f968",
         "video": "#",
         "link": "#",
-        "projectNo": 1,
-        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        "projectNo": 1
     }
 ]

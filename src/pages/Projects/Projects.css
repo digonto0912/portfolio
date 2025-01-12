@@ -76,6 +76,13 @@
     color: black;
 }
 
+.WDProjectsList h1 {
+    font-size: 2rem;
+    color: #403e3e;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
 .WDProjectsList a {
     color: black !important;
 }
@@ -94,24 +101,67 @@
     border: 2px solid black;
 }
 
+.WDNormalProject {
+    overflow: hidden;
+    padding: 0;
+    border: 0;
+    background: white;
+    box-shadow: 0 0 22px -9px #e93bf43b;
+}
+
+.WEProjectBtn {
+    background: linear-gradient(to right, #7e68f7, #75d3fc);
+    border: 0;
+    border-radius: 3.1px;
+}
+
 .WDProject>div {
     overflow: hidden;
     display: flex;
     background: white;
     border-radius: 20px;
     gap: 20px;
+    height: 21rem;
 }
 
 .WDProject>div>img {
     width: 100%;
 }
 
+.WDNormalProject>div {
+    border-radius: 0 !important;
+}
+
+.WDProjectImg {
+    padding: 0 !important;
+}
+
+.WDProjectImg {
+    text-align: center;
+    height: 100%;
+    align-content: center;
+}
+
+.WDProjectImg>img {
+    height: 100%;
+    align-content: center;
+}
+
 .WDProject>div>div {
-    padding: 20px;
+    padding: 50px 20px;
+    width: 50%;
 }
 
 .WDProject>div>h5 {
     font-weight: 400;
+}
+
+.WDProject>div>div>div>h3 {
+    color: #4c4c4c;
+}
+
+.WDProject>div>div>div>div {
+    color: rgb(48, 48, 48);
 }
 
 /* for ml projects */
@@ -146,7 +196,27 @@
     font-weight: 400;
 }
 
+.time-saving-note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #c5e8ff;
+    padding: 20px;
+    border-radius: 5px;
+}
 
+.time-saving-note>img {
+    background-color: #0382ff;
+    color: white;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
 
 
 /* responsive {for tab and laptop}*/
@@ -188,5 +258,59 @@
 @media screen and (max-width: 1100px) {
     .ProjectsList {
         grid-template-columns: repeat(1, 2fr);
+    }
+}
+
+
+/* {for common} */
+@media screen and (max-width: 1540px) {
+    .WDProject>div>div {
+        width: -webkit-fill-available;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .WDProject>div {
+        display: block;
+        height: 100%;
+    }
+
+    .WDProject>div>div>img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .WDProject>div>div>img {
+        height: 35vw;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    .WDProject>div>div>img {
+        height: 45vw;
+    }
+}
+
+
+@media screen and (max-width: 498px) {
+    .WDProjectsList h1 {
+        font-size: 1.7rem;
+        margin-top: 0;
+    }
+
+    .ProjectsListDivHeadline {
+        margin: 45px 0px;
+        padding: 0 30px;
+    }
+
+    .ProjectsListDivHeadline>h1 {
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .projectTypeButton {
+        display: grid;
     }
 }

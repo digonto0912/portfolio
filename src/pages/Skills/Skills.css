@@ -40,7 +40,7 @@
 
 .stagesOfSkills {
     display: grid;
-    gap: 20px;
+    gap: 25px;
 }
 
 .skillsBoxSkills {
@@ -71,16 +71,17 @@
     color: white;
 }
 
-.skillsHeadRow>h4 {
-    justify-content: center;
+.skillsTypeHeadline {
     align-items: center;
-    display: flex;
-    width: 7%;
+    display: grid;
+}
+
+.skillsTypeHeadline>h4 {
     rotate: -90deg;
     font-size: 1.3rem;
 }
 
-.skillsHeadColumn>h4 {
+.skillsHeadColumn>div>h4 {
     rotate: none !important;
 }
 
@@ -171,4 +172,64 @@
     width: 40px;
     border-radius: 20px;
     aspect-ratio: 3 / 3;
+}
+
+
+
+@media screen and (max-width: 1198px) {
+    .allSkills {
+        display: block;
+    }
+
+    .singleSkill {
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .skillsBoxSkills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skillsBoxDualColumn {
+        width: -webkit-fill-available;
+    }
+}
+
+@media screen and (max-width: 895px) {
+    .skillsHeadRow {
+        display: block;
+        padding: 0;
+    }
+
+    .skillsTypeHeadline>h4 {
+        rotate: 0deg;
+    }
+
+    .skillsTypeHeadline {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 702px) {
+    .skillsBoxDualColumn {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .skillsBoxDualColumn {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media screen and (max-width: 1005px) {
+    .SkillsListDiv {
+        padding: 0;
+    }
 }
